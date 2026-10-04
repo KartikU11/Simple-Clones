@@ -1,0 +1,143 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+#header{
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 0.1px solid rgb(71, 69, 69);
+    color: white;
+}
+
+#header img{
+    height: 25px;
+    background-color: aliceblue;
+}
+
+#main-container{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(/ASSETS1/restaurant-2618315_1280.jpg.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav ul{
+    font-size: 20px;
+    list-style: none;
+    display: flex;
+    width: 40vw;
+    justify-content: space-around;
+    align-items: center;
+    color: orange;
+}
+
+nav img{
+    height: 80px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    padding: 23px;
+
+}
+#download{
+    background-color: white;
+    padding: 7px;
+    border: 2px solid orange;
+    border-radius: 9px;
+    color: orange;
+}
+nav div img{
+    background-color: aliceblue;
+    /* box-shadow: white; */
+    height: 30px;
+}
+
+#welcome{
+    color: white;
+    font-size: 125px;
+    position: relative;
+    top: 12vh;
+    left:29vw ;
+    display: inline-block;
+}
+#resto{
+    font-size: 50px;
+    color: white;
+    position: relative;
+    top: 12vh;
+    left: 22vw;
+    display: inline-block;
+}
+
+#main-container button{
+    background-color: #ff5100;
+    padding: 20px;
+    position: relative;
+    top: 21vh;
+    left: -10vw;
+    color: white;
+    border: 0px;
+}
+#main-container button:hover{
+    background-color: #ee6323;
+}
+
+
+#middle-part{
+    height: 80vh;
+    width: 100vw;
+    background-image: linear-gradient(#ffffffe4,#ffffffe4), url(/ASSETS1/istockphoto-479203918-612x612-1.jpg.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#middle-part h2{
+    font-size: 43px;
+    color: #ee6323;
+    display: inline-block;
+    position: relative;
+    top: 60px;
+    left: 10px;
+}
+
+#middle-part p{
+    font-size: 17px;
+    display: inline-block;
+    position: relative;
+    top: 98px;
+    left: -278px;
+}
+
+/* .featured-items-section {
+    width: 80%;
+    margin: 0 auto;
+} */
+
+#middle-part ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    /* column-gap: 60px; */
+}
+.food{
+    height: 20vh;
+    position: relative;
+    top: 230px;
+    left: 230px;
+
+}
+.name{
+    display: inline-block;
+    position: relative;
+    top: 0vh;
+    left: 0vr;
+}

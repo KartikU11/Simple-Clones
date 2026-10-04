@@ -1,0 +1,100 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+#header{
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 0.1px solid rgb(71, 69, 69);
+    color: white;
+}
+
+#header img{
+    height: 25px;
+    background-color: aliceblue;
+}
+
+#main-container{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(/ASSETS1/Untitled-design-11.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav ul{
+    font-size: 20px;
+    list-style: none;
+    display: flex;
+    width: 40vw;
+    justify-content: space-around;
+    align-items: center;
+    color: orange;
+}
+
+nav img{
+    height: 80px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    padding: 23px;
+
+}
+#download{
+    background-color: white;
+    padding: 7px;
+    border: 2px solid orange;
+    border-radius: 9px;
+    color: orange;
+}
+nav div img{
+    background-color: aliceblue;
+    /* box-shadow: white; */
+    height: 30px;
+}
+
+#welcome{
+    color: white;
+    font-size: 125px;
+    position: relative;
+    top: 11vh;
+    left:35vw ;
+    display: inline-block;
+}
+
+
+#middle-part{
+    background-color: white;
+    height: 110vw;
+    position: relative;
+    top: -12rem;
+    align-items: center;
+}
+
+.loc{
+    border: 2px solid black;
+    height: 350px;
+    width: 49.86%;
+    display: inline-flex;
+    color: darkorange;
+    background-color: #fcf5ef;
+}
+.shead{
+    border: 2px solid darkgoldenrod;
+    display: block;
+    position:relative ;
+    width: 90px;
+    height: 30px;
+    top: 65px;
+    left: 5vw;
+}
+div h1{
+    border: 2px solid black;
+}
